@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="./bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid text-center mt-5">
+        <h1>My Gallery</h1>
+        <input class="mt-3" placeholder="Search Photo Name" id="search">
+        <div class="gallery mt-3"></div>
+
+
+        <div class="modal-spiner" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h6>กำลังโหลดข้อมูล...</h6>
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
